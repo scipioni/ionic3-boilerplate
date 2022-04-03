@@ -2,7 +2,7 @@ serve:
 	ionic serve
 
 android-run:
-	ionic cordova run android -l --no-native-run
+	ionic cordova run android -l --no-native-run --external
 
 android-rebuild:
 	ionic cordova platform remove android
