@@ -11,4 +11,5 @@ android-rebuild:
 android: platforms/android
 platforms/android:
 	ionic cordova platform add android
+	#ionic cordova platform add cordova@7
 

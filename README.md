@@ -65,3 +65,23 @@ System:
    npm               : 6.12.0
    OS                : Linux 5.15
 ```
+
+
+## run on android
+
+add your PC ip in resources/android/xml/network_security_config.xml
+```
+<domain includeSubdomains="true">http://192.168.2.50</domain>
+```
+
+add emulator with android avdmanager
+
+build cordova platform
+```
+make android-rebuild
+```
+
+run android app
+```
+make android-run
+```
