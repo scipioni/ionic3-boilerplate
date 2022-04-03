@@ -7,9 +7,9 @@ venv:
 	echo 'set -gx PATH $JAVA_HOME/bin $PATH' >> venv/bin/activate.fish
 	echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk" >> venv/bin/activate
 	echo 'export PATH=$JAVA_HOME/bin:$PATH' >> venv/bin/activate
-	npm i -g @ionic/cli
-	npm i -g cordova
-	npm i -g cordova-res
-	npm i -g native-run
+	venv/bin/npm i -g @ionic/cli
+	venv/bin/npm i -g cordova
+	venv/bin/npm i -g cordova-res
+	venv/bin/npm i -g native-run
 
 all: venv myApp
