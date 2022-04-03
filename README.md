@@ -12,6 +12,7 @@ bash environment
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
 export ANDROID_HOME=/opt/android-sdk
+export ANDROID_SDK_ROOT=/opt/android-sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/tools/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
@@ -23,6 +24,7 @@ or fish environment
 set -gx JAVA_HOME /usr/lib/jvm/java-8-openjdk/
 set -gx PATH $JAVA_HOME/bin $PATH
 set --export ANDROID_HOME /opt/android-sdk
+set --export ANDROID_SDK_ROOT /opt/android-sdk
 set -gx PATH $ANDROID_HOME/tools $PATH;
 set -gx PATH $ANDROID_HOME/tools/bin $PATH;
 set -gx PATH $ANDROID_HOME/platform-tools $PATH;
