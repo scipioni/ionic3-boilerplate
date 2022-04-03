@@ -1,7 +1,7 @@
-= ionic 3 project with cordova (no capacitor)
+# ionic 3 project with cordova (no capacitor)
 
 
-== prereq
+## prereq
 
 - android sdk in /opt/android-sdk
 - java 8
@@ -9,6 +9,8 @@
 
 Android sdk manager and avd manager are in android studio GUI
 
-== init
+## init
 
+```
 ionic start myApp super --type=ionic-angular
+```
